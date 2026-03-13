@@ -1,0 +1,4 @@
+print("Welcome to Naomi's Madlibs!")
+name=input("What is your name?  ")
+print(f"Hello {name}! Today you are going to make a Mad Lib!")
+celebrity=input("Pick a celebrity: ")

@@ -1,0 +1,5 @@
+print("Knock Knock")
+input()
+print("Boo")
+input()
+print("Why are you crying it's just a joke")
