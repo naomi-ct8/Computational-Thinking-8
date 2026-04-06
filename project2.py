@@ -68,8 +68,10 @@ if strawberryacailemonade_points > icedchai_points and strawberryacailemonade_po
 elif icedchai_points > strawberryacailemonade_points and icedchai_points > icedmatcha_points and icedchai_points > hotcoffee_points and icedchai_points > vanillabeanfrapwithcaramel_points:
     print("Your personality is like a Iced Chai! You are chill and funny and maybe a little basic.")
 elif icedmatcha_points > strawberryacailemonade_points and icedmatcha_points > icedchai_points and icedmatcha_points > hotcoffee_points and icedmatcha_points > vanillabeanfrapwithcaramel_points:
-    print("Your personality is like an iced matcha! You probably love Labubus and have a Coach bag.")
+    print("Your personality is like an iced matcha! You are outgoing and probably love Labubus and have a Coach bag.")
 elif hotcoffee_points > strawberryacailemonade_points and hotcoffee_points > icedmatcha_points and hotcoffee_points > icedchai_points and hotcoffee_points > vanillabeanfrapwithcaramel_points:
     print("Your personality is like a hot cup of coffee! You are a warm and caring person and probably a middle aged mom.")
 elif vanillabeanfrapwithcaramel_points > strawberryacailemonade_points and vanillabeanfrapwithcaramel_points > icedchai_points and vanillabeanfrapwithcaramel_points > icedmatcha_points and vanillabeanfrapwithcaramel_points > hotcoffee_points:
-    print("Your personality is like a Vanilla Bean Frappuchino with Caramel Drizzel! You are funny and adventurous but love a sweet treat and you are probably a middle school boy.")
+    print("Your personality is like a Vanilla Bean Frappuchino with Caramel Drizzle! You are funny and adventurous but love a sweet treat and you are probably a middle school boy.")
+else:
+    print("You are a Unicorn Frappuchino! You are unique and vibrant!")
