@@ -27,7 +27,7 @@ t4 = create_sprite("images",x4,y4)
 # sprite one will travel between 5 and 20 randomly, but always beat sprite 4. sprite 2 has a 4/5 chance of not moving at all, but it has a 1/5 chance of going 21 steps, and would beat everyone. sprite 3 with always go 8, beating sprite 4, and 3 could win depending on sprite 1 and 2's randomness. x4 will always go 4, so it will never win, but it could beat sprite 2 depending on the randomness.
 for i in range(30):
     x1 += random.randint (5,20)
-    x2 += random.choice ([0,0,0,0,21])
+    x2 += random.choice ([1,1,1,1,21])
     x3 += 8
     x4 += 4
 
